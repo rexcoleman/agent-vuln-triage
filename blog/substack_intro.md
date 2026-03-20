@@ -1,4 +1,4 @@
-# Substack Introduction — FP-19
+# Substack Introduction — Agent Vulnerability Triage
 
 **Subject line:** Can an AI triage your vulnerabilities? We tested it against EPSS.
 

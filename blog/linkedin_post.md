@@ -1,4 +1,4 @@
-# LinkedIn Post — FP-19
+# LinkedIn Post — Agent Vulnerability Triage
 
 I pre-registered 4 hypotheses about LLM agent vulnerability triage. Primary prediction: agent beats EPSS by 15+ percentage points.
 

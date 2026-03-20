@@ -1,4 +1,4 @@
-# Conference Abstract — FP-19
+# Conference Abstract — Agent Vulnerability Triage
 
 **Title:** LLM Agent Vulnerability Triage: An Empirical Comparison Against EPSS Using CISA KEV Ground Truth
 
@@ -24,4 +24,4 @@ Our contribution is empirical: practitioners should use EPSS for raw ranking, bu
 
 ## Author Bio
 
-**Rex Coleman** is the founder of Singularity Cybersecurity LLC, focused on AI security research. His research spans security OF AI systems and security FROM AI, with prior work in vulnerability prioritization (FP-05), multi-agent security (FP-08), and LLM watermark robustness (FP-18). Previously at FireEye/Mandiant in data analytics and sales. MS Computer Science, Georgia Tech (ML). Securing AI from the architecture up.
+**Rex Coleman** is the founder of Singularity Cybersecurity LLC, focused on AI security research. His research spans security OF AI systems and security FROM AI, with prior work in vulnerability prioritization, multi-agent security, and LLM watermark robustness. Previously at FireEye/Mandiant in data analytics and sales. MS Computer Science, Georgia Tech (ML). Securing AI from the architecture up.
