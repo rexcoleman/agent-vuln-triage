@@ -60,7 +60,7 @@
 
 | ID | Statement (short) | Prediction | Status |
 |----|-------------------|-----------|--------|
-| H-1 | Agent beats EPSS | ≥15pp precision@10 improvement | PENDING |
-| H-2 | Enrichment helps | ≥10pp improvement with enrichment | PENDING |
-| H-3 | Ensemble wins | Ensemble > best individual | PENDING |
-| H-4 | Temporal degradation | 2025 > 2023 by ≥10pp | PENDING |
+| H-1 | Agent beats EPSS | ≥15pp precision@10 improvement | NOT SUPPORTED (agent 92% vs EPSS 100%) |
+| H-2 | Enrichment helps | ≥10pp improvement with enrichment | PARTIALLY SUPPORTED (+6pp, below 10pp threshold) |
+| H-3 | Ensemble wins | Ensemble > best individual | NOT SUPPORTED (ensemble 98% < EPSS 100%) |
+| H-4 | Temporal degradation | 2025 > 2023 by ≥10pp | INCONCLUSIVE (insufficient per-year samples) |

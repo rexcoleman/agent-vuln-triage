@@ -1,0 +1,31 @@
+{
+  "experiment": "e3",
+  "date": "2026-03-20T04:01:09.304103",
+  "results": {
+    "42": {
+      "agent_p10": 1.0,
+      "epss_p10": 1.0,
+      "ensemble_p10": 1.0
+    },
+    "123": {
+      "agent_p10": 0.9,
+      "epss_p10": 1.0,
+      "ensemble_p10": 1.0
+    },
+    "456": {
+      "agent_p10": 0.7,
+      "epss_p10": 1.0,
+      "ensemble_p10": 0.9
+    },
+    "789": {
+      "agent_p10": 1.0,
+      "epss_p10": 1.0,
+      "ensemble_p10": 1.0
+    },
+    "1024": {
+      "agent_p10": 1.0,
+      "epss_p10": 1.0,
+      "ensemble_p10": 1.0
+    }
+  }
+}
