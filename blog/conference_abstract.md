@@ -10,13 +10,11 @@
 
 ## Abstract (250 words)
 
-We evaluate whether an LLM agent (Claude Haiku) can prioritize vulnerabilities more effectively than the Exploit Prediction Scoring System (EPSS), using CISA's Known Exploited Vulnerabilities catalog as ground truth. Across 100 CVEs per seed (15% KEV rate, 5 seeds), the agent achieves 92% precision@10 — outperforming CVSS ranking (82%) and random (14%), but underperforming EPSS (100%). This is an honest negative result for our primary hypothesis: LLM agents do not outperform purpose-built statistical models on data that correlates with those models' training distribution.
+Every security team wants to know if AI can help prioritize the CVE flood. We evaluate whether an LLM agent (Claude Haiku) can outperform the Exploit Prediction Scoring System (EPSS), using CISA's Known Exploited Vulnerabilities catalog as ground truth. This matters because EPSS is the current best practice, and LLM agents promise contextual reasoning that statistical models lack.
 
-However, an agent+EPSS ensemble achieves 98% precision@10 with dramatically lower variance (±4% vs ±12%), suggesting the agent captures complementary signal. Enrichment ablation shows exploit database info is the highest-value data source (+6pp over CVE description alone), while vendor advisories provide no additional improvement.
+Across 100 CVEs per seed (15% KEV rate, 5 seeds), the agent achieves 92% precision@10 — outperforming CVSS (82%) and random (14%), but underperforming EPSS (100%). This is an honest negative result: LLM agents do not beat purpose-built statistical models. However, an agent+EPSS ensemble achieves 98% precision@10 with dramatically lower variance (plus/minus 4% vs 12%), and enrichment ablation shows exploit database info is the highest-value source (+6pp) while vendor advisories add nothing. Four pre-registered hypotheses yielded 1 not supported, 1 partially supported, 1 not supported on pre-registered metric, and 1 inconclusive.
 
-We pre-registered four hypotheses under our research governance framework: H-1 (agent beats EPSS) NOT SUPPORTED, H-2 (enrichment helps) PARTIALLY SUPPORTED, H-3 (ensemble wins) NOT SUPPORTED on pre-registered metric, H-4 (temporal degradation) INCONCLUSIVE. The governance framework forced honest reporting of the negative result and prevented post-hoc reframing.
-
-Our contribution is empirical: practitioners should use EPSS for raw ranking, but combine with LLM agents for qualitative context and ensemble stability. The agent adds reasoning and explanation that statistical models cannot provide.
+Attendees will leave with empirical guidance on when to use EPSS alone versus an LLM ensemble, which enrichment data sources matter, and a reproducible evaluation framework for benchmarking their own triage agents.
 
 **Keywords:** vulnerability management, LLM agents, EPSS, CISA KEV, triage, negative results
 

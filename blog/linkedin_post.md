@@ -10,6 +10,10 @@ But here's what's interesting: agent + EPSS ensemble hits 98% with half the vari
 
 The enrichment finding surprised me: exploit DB info adds 6pp. Vendor advisories? Zero additional value. The CVE description + exploit availability is the signal.
 
-Full analysis with precision curves and enrichment ablation: [link]
+Is your team using EPSS for triage? What's the biggest gap?
 
 #VulnerabilityManagement #AISecurity #EPSS #LLMAgents #NegativeResults
+
+---
+
+> First comment: "Full analysis with precision curves and enrichment ablation: [blog URL]"
