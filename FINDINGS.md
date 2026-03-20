@@ -1,3 +1,12 @@
+---
+project: "FINDINGS — FP-19: Agent-Assisted Vulnerability Triage"
+fp: "FP-19"
+status: COMPLETE
+quality_score: 8.0
+last_scored: 2026-03-20
+profile: security-ml
+---
+
 # FINDINGS — FP-19: Agent-Assisted Vulnerability Triage
 
 > **Project:** FP-19
