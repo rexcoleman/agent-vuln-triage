@@ -3,7 +3,7 @@
 > **Gate:** 0 (must pass before Phase 1 compute)
 > **Date:** 2026-03-20
 > **Target venue:** AISec Workshop (ACM CCS 2026)
-> **lock_commit:** TBD (set after HYPOTHESIS_REGISTRY)
+> **lock_commit: `fb51534` (set after HYPOTHESIS_REGISTRY)
 > **Profile:** contract-track
 > **Budget:** ~$3-5 Claude API (Haiku)
 
