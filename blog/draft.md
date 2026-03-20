@@ -13,7 +13,7 @@ author: Rex Coleman
 
 ## The Question
 
-Can an LLM agent prioritize vulnerabilities better than EPSS? Every security team drowning in CVEs wants to know whether AI can help them triage faster. We tested this empirically: Claude Haiku as a vulnerability triage agent, ranked against EPSS, CVSS, and random baselines, with CISA KEV as ground truth for "actually exploited."
+Can an LLM agent prioritize vulnerabilities better than EPSS? Security teams processing 20,000+ CVEs per year want to know whether AI can help them triage faster. We tested this empirically: Claude Haiku as a vulnerability triage agent, ranked against EPSS, CVSS, and random baselines, with CISA KEV as ground truth for "actually exploited."
 
 The short answer: **no, the agent doesn't beat EPSS.** But the longer answer is more interesting.
 
