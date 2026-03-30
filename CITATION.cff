@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+type: software
+title: ": Agent-Assisted Vulnerability Triage"
+authors:
+  - family-names: Coleman
+    given-names: Rex
+abstract: ": Agent-Assisted Vulnerability Triage"
+date-released: "2026-03-20"
+url: "https://github.com/rexcoleman/agent-vuln-triage"
+repository-code: "https://github.com/rexcoleman/agent-vuln-triage"
+license: MIT
+keywords:
+  - "ai-agents"
+  - "reproducible-research"
+  - "security-ml"
+  - "vulnerability-management"
