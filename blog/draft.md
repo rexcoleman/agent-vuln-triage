@@ -3,7 +3,7 @@ title: "Your AI Can't Beat EPSS at Vulnerability Triage (But the Ensemble Might)
 date: 2026-03-20
 format: "technical-blog"
 tags: ["vulnerability-management", "llm-agents", "ai-security", "epss", "negative-results"]
-audience_side: "Security FROM AI"
+audience_side: "of-ai"
 image_count: 2
 description: "An LLM agent achieves 92% precision@10 on vulnerability triage but underperforms EPSS (100%). The ensemble reaches 98% with lower variance."
 author: Rex Coleman
@@ -108,6 +108,6 @@ All code in the repository. Run `bash reproduce.sh` to replicate. 5 seeds, ~$0.5
 
 ---
 
-*Rex Coleman is securing AI from the architecture up — building and attacking AI security systems at every layer of the stack, publishing the methodology, and shipping open-source tools. [rexcoleman.dev](https://rexcoleman.dev) · [GitHub](https://github.com/rexcoleman) · [Singularity Cybersecurity](https://singularitycyber.com)*
+*Rex Coleman is securing AI from the architecture up — building and attacking AI security systems at every layer of the stack, publishing the methodology, and shipping open-source tools. [rexcoleman.dev](https://rexcoleman.dev) · [GitHub](https://github.com/rexcoleman)*
 
 *If this was useful, [subscribe on Substack](https://substack.com/@rexcoleman) for weekly AI security research — findings, tools, and curated signal.*
